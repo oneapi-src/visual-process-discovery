@@ -420,8 +420,7 @@ This section covers the training time and inference time comparison between Stoc
 
 
 <br>**Key Takeaways**<br>
-Intel® Extension for PyTorch* v1.13.0 offers speed up of training time up to 1.43x during regular model training and up to 1.27x speed up during hyperparameter tuned training, as compared to the Stock PyTorch v1.13.0
-.
+Intel® Extension for PyTorch* v1.13.0 offers speed up of training time up to 1.56x during regular model training and up to 1.42x speed up during hyperparameter tuned training, as compared to the Stock PyTorch v1.13.0.
 
 ### Inference benchmarking results: Stock PyTorch v1.13.0 FP32 Model vs Intel® Extension for PyTorch* v1.13.0 FP32 Model vs Intel® Neural Compressor INT8 Model.
 
@@ -430,10 +429,10 @@ Intel® Extension for PyTorch* v1.13.0 offers speed up of training time up to 1.
 
 <br>**Key Takeaways**<br>
 
--  Realtime prediction time with Intel® Extension for PyTorch* v1.13.0 FP32 Model shows up to 1.31x against Stock PyTorch v1.13.0 FP32 Model
--  Batch prediction time speedup with Intel® Extension for PyTorch* v1.13.0 FP32 Model shows up to 1.37x against Stock PyTorch v1.13.0 FP32 Model
--  Intel® Neural Compressor quantization offers real-time prediction time speedup of up to  2.70x against Stock PyTorch v1.13.0  FP32 model
--  Intel® Neural Compressor quantization offers batch prediction time speedup of up to 2.43x against the Stock PyTorch v1.13.0 FP32 model.
+-  Realtime prediction time with Intel® Extension for PyTorch* v1.13.0 FP32 Model shows up to 1.24x against Stock PyTorch v1.13.0 FP32 Model
+-  Batch prediction time speedup with Intel® Extension for PyTorch* v1.13.0 FP32 Model shows up to 1.34x against Stock PyTorch v1.13.0 FP32 Model
+-  Intel® Neural Compressor quantization offers real-time prediction time speedup of up to  2.54x against Stock PyTorch v1.13.0  FP32 model
+-  Intel® Neural Compressor quantization offers batch prediction time speedup of up to 2.07x against the Stock PyTorch v1.13.0 FP32 model.
 -  Accuracy drop of only 0.001% is observed post-quantization of the FP32 model in both phases, which is around 57% for 10 epochs of training.
 -  Model Footprint is reduced from 158 MB to 40 MB (~75% Compressed)
 
