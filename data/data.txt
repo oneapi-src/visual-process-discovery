@@ -1,0 +1,13 @@
+*make sure of the directory *
+
+cd <required directory>
+
+*now to dowload the data set in zip format from RoboFlow*
+
+curl -L "https://public.roboflow.com/ds/nEKEk2xTVl?key=5RsNd1Ak4t" > roboflow.zip
+
+*Unzip the roboflow.zip file that was downloaded to have Train, Test & Valid Folders *
+unzip roboflow.zip 
+
+*remove the zip file *
+rm roboflow.zip
