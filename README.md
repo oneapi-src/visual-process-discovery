@@ -1,3 +1,14 @@
+PROJECT NOT UNDER ACTIVE MANAGEMENT
+
+This project will no longer be maintained by Intel.
+
+Intel has ceased development and contributions including, but not limited to, maintenance, bug fixes, new releases, or updates, to this project.  
+
+Intel no longer accepts patches to this project.
+
+If you have an ongoing need to use this project, are interested in independently developing it, or would like to maintain patches for the open source software community, please create your own fork of this project.  
+
+Contact: webadmin@linux.intel.com
 # Applications of Visual Process Discovery Using PyTorch
 ## Introduction
 Process discovery has been crucial for businesses from traditional times to understand the existing business process flows at every level and identify the gaps and bottlenecks to improve productivity. With the growing digitization of businesses, visual process discovery tools and techniques have found broad applications across multiple industries.
